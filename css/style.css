@@ -1,10 +1,10 @@
 @charset "UTF-8";
 @font-face {
-  font-family: Biko400;
-  src: url("../assets/Biko-400.otf") format("opentype");
+  font-family: LadyCaptainFont;
+  src: url("../assets/LadyCaptainFont.otf") format("opentype");
 }
 body {
-  font-family: "Biko400", "Montserrat", sans-serif;
+  font-family: "LadyCaptainFont", "Montserrat", sans-serif;
   display: flex;
   width: 100%;
   height: 100%;
@@ -13,6 +13,10 @@ body {
   background-color: #fff4ef;
   color: #2B3061;
   line-height: 1.7;
+}
+
+.shell-bg {
+  background-color: #fff4ef;
   background-image: url("../assets/LC-Anchor-Coral-Pink.png");
   background-position-x: center;
   background-position-y: 90vh;
@@ -25,7 +29,7 @@ input {
   box-shadow: none;
   font-size: 1.1em;
   padding: 20px 30px 20px 10px;
-  font-family: "Biko400", "Montserrat", sans-serif;
+  font-family: "LadyCaptainFont", "Montserrat", sans-serif;
   margin-bottom: auto;
   border-radius: 0;
   background-color: transparent;
@@ -57,6 +61,14 @@ h3 {
 p {
   margin-top: 5px;
   padding-top: 0;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #b63024;
 }
 
 @media only screen and (max-width: 600px) {

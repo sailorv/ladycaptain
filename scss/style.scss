@@ -3,12 +3,12 @@ $coralPink: #fff4ef;
 $seaShell: #EAE9CE;
 $red: #b63024;
 
-$sansSerif: "Biko400", "Montserrat", sans-serif;
+$sansSerif: "LadyCaptainFont", "Montserrat", sans-serif;
 $sansSerifSecondary: "Montserrat", sans-serif;
 
 @font-face {
-    font-family: Biko400;
-    src: url("../assets/Biko-400.otf") format("opentype");
+    font-family: LadyCaptainFont;
+    src: url("../assets/LadyCaptainFont.otf") format("opentype");
 }
 
 body {
@@ -21,6 +21,9 @@ body {
   background-color: $coralPink;
   color: $ultraMarine;
   line-height: 1.7;
+}
+.shell-bg {
+  background-color: $coralPink;
   background-image: url('../assets/LC-Anchor-Coral-Pink.png');
   background-position-x: center;
   background-position-y: 90vh;
@@ -71,6 +74,13 @@ h3 {
 p {
   margin-top: 5px;
   padding-top: 0;
+}
+
+a {
+  color: #000;
+}
+a:hover {
+  color: $red;
 }
 
 @media only screen and (max-width: 600px) {
