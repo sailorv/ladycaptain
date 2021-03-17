@@ -18,9 +18,9 @@ body {
   background-color: #fff4ef;
   background-image: url("../assets/LC-Anchor-Coral-Pink.png");
   background-position-x: center;
-  background-position-y: 90%;
+  background-position-y: 95vh;
   background-repeat: no-repeat;
-  background-size: 60px 60px;
+  background-size: 50px 50px;
 }
 
 input {
