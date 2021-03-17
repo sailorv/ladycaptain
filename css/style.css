@@ -110,7 +110,7 @@ a.button:hover {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 900px) {
   .body-wrapper {
     text-align: center;
     width: 95%;
@@ -121,7 +121,7 @@ a.button:hover {
     height: auto;
   }
 }
-@media only screen and (min-width: 861px) and (max-width: 1399px) {
+@media only screen and (min-width: 901px) and (max-width: 1399px) {
   .body-wrapper {
     text-align: center;
     width: 60%;
