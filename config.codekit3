@@ -51,6 +51,14 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/CNAME",
+		"oF": 0
+		},
 	"/css/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -60,6 +68,14 @@
 		"oAP": "/css/style-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon.ico",
+		"oF": 0
 		},
 	"/index-old.html": {
 		"cB": 0,
